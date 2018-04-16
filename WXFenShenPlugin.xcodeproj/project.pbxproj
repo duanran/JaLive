@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1871DA04206204360080BB42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1871DA03206204360080BB42 /* Foundation.framework */; };
+		1871DA0E206204360080BB42 /* WXFenShenPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1871DA0D206204360080BB42 /* WXFenShenPlugin.mm */; };
+		187A2BB8207CB6C400CB4E74 /* WatchVideoController.h in Headers */ = {isa = PBXBuildFile; fileRef = 187A2BB6207CB6C400CB4E74 /* WatchVideoController.h */; };
+		187A2BB9207CB6C400CB4E74 /* WatchVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A2BB7207CB6C400CB4E74 /* WatchVideoController.m */; };
+		187A2BBC207CB71200CB4E74 /* VideoListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 187A2BBA207CB71200CB4E74 /* VideoListModel.h */; };
+		187A2BBD207CB71200CB4E74 /* VideoListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A2BBB207CB71200CB4E74 /* VideoListModel.m */; };
+		187A2BC6207E33AF00CB4E74 /* CommonVar.h in Headers */ = {isa = PBXBuildFile; fileRef = 187A2BC4207E33AF00CB4E74 /* CommonVar.h */; };
+		187A2BC7207E33AF00CB4E74 /* CommonVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A2BC5207E33AF00CB4E74 /* CommonVar.m */; };
+		18D363A4206D1085009173E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D363A3206D1085009173E6 /* UIKit.framework */; };
+		18D363AB206E3B67009173E6 /* HQVideoInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D363A9206E3B67009173E6 /* HQVideoInfoModel.h */; };
+		18D363AC206E3B67009173E6 /* HQVideoInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D363AA206E3B67009173E6 /* HQVideoInfoModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1871DA00206204360080BB42 /* WXFenShenPlugin.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WXFenShenPlugin.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1871DA03206204360080BB42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1871DA08206204360080BB42 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		1871DA09206204360080BB42 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		1871DA0B206204360080BB42 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		1871DA0C206204360080BB42 /* WXFenShenPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WXFenShenPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		1871DA0D206204360080BB42 /* WXFenShenPlugin.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WXFenShenPlugin.mm; sourceTree = "<group>"; };
+		1871DA12206204360080BB42 /* WXFenShenPlugin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = WXFenShenPlugin.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/WXFenShenPlugin.plist; sourceTree = "<group>"; };
+		187A2BB6207CB6C400CB4E74 /* WatchVideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchVideoController.h; sourceTree = "<group>"; };
+		187A2BB7207CB6C400CB4E74 /* WatchVideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchVideoController.m; sourceTree = "<group>"; };
+		187A2BBA207CB71200CB4E74 /* VideoListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoListModel.h; sourceTree = "<group>"; };
+		187A2BBB207CB71200CB4E74 /* VideoListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoListModel.m; sourceTree = "<group>"; };
+		187A2BC4207E33AF00CB4E74 /* CommonVar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonVar.h; sourceTree = "<group>"; };
+		187A2BC5207E33AF00CB4E74 /* CommonVar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonVar.m; sourceTree = "<group>"; };
+		18D363A3206D1085009173E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18D363A9206E3B67009173E6 /* HQVideoInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQVideoInfoModel.h; sourceTree = "<group>"; };
+		18D363AA206E3B67009173E6 /* HQVideoInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQVideoInfoModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1871D9FC206204360080BB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D363A4206D1085009173E6 /* UIKit.framework in Frameworks */,
+				1871DA04206204360080BB42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1871D9F6206204360080BB42 = {
+			isa = PBXGroup;
+			children = (
+				1871DA05206204360080BB42 /* WXFenShenPlugin */,
+				1871DA02206204360080BB42 /* Frameworks */,
+				1871DA01206204360080BB42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1871DA01206204360080BB42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1871DA00206204360080BB42 /* WXFenShenPlugin.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1871DA02206204360080BB42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D363A3206D1085009173E6 /* UIKit.framework */,
+				1871DA03206204360080BB42 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1871DA05206204360080BB42 /* WXFenShenPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				187A2BC4207E33AF00CB4E74 /* CommonVar.h */,
+				187A2BC5207E33AF00CB4E74 /* CommonVar.m */,
+				187A2BB6207CB6C400CB4E74 /* WatchVideoController.h */,
+				187A2BB7207CB6C400CB4E74 /* WatchVideoController.m */,
+				187A2BBA207CB71200CB4E74 /* VideoListModel.h */,
+				187A2BBB207CB71200CB4E74 /* VideoListModel.m */,
+				18D363A9206E3B67009173E6 /* HQVideoInfoModel.h */,
+				18D363AA206E3B67009173E6 /* HQVideoInfoModel.m */,
+				1871DA0D206204360080BB42 /* WXFenShenPlugin.mm */,
+				1871DA06206204360080BB42 /* Package */,
+				1871DA0A206204360080BB42 /* Supporting Files */,
+			);
+			path = WXFenShenPlugin;
+			sourceTree = "<group>";
+		};
+		1871DA06206204360080BB42 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				1871DA07206204360080BB42 /* DEBIAN */,
+				1871DA0F206204360080BB42 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		1871DA07206204360080BB42 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				1871DA08206204360080BB42 /* control.txt */,
+				1871DA09206204360080BB42 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		1871DA0A206204360080BB42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1871DA0B206204360080BB42 /* PackageVersion.plist */,
+				1871DA0C206204360080BB42 /* WXFenShenPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1871DA0F206204360080BB42 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1871DA10206204360080BB42 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		1871DA10206204360080BB42 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				1871DA11206204360080BB42 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		1871DA11206204360080BB42 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				1871DA12206204360080BB42 /* WXFenShenPlugin.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1871D9FD206204360080BB42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187A2BB8207CB6C400CB4E74 /* WatchVideoController.h in Headers */,
+				187A2BBC207CB71200CB4E74 /* VideoListModel.h in Headers */,
+				18D363AB206E3B67009173E6 /* HQVideoInfoModel.h in Headers */,
+				187A2BC6207E33AF00CB4E74 /* CommonVar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1871D9FF206204360080BB42 /* WXFenShenPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1871DA15206204360080BB42 /* Build configuration list for PBXNativeTarget "WXFenShenPlugin" */;
+			buildPhases = (
+				1871D9FB206204360080BB42 /* Sources */,
+				1871D9FC206204360080BB42 /* Frameworks */,
+				1871D9FD206204360080BB42 /* Headers */,
+				1871D9FE206204360080BB42 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXFenShenPlugin;
+			productName = WXFenShenPlugin;
+			productReference = 1871DA00206204360080BB42 /* WXFenShenPlugin.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1871D9F7206204360080BB42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					1871D9FF206204360080BB42 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1871D9FA206204360080BB42 /* Build configuration list for PBXProject "WXFenShenPlugin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1871D9F6206204360080BB42;
+			productRefGroup = 1871DA01206204360080BB42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1871D9FF206204360080BB42 /* WXFenShenPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1871D9FE206204360080BB42 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1871D9FB206204360080BB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187A2BB9207CB6C400CB4E74 /* WatchVideoController.m in Sources */,
+				18D363AC206E3B67009173E6 /* HQVideoInfoModel.m in Sources */,
+				1871DA0E206204360080BB42 /* WXFenShenPlugin.mm in Sources */,
+				187A2BC7207E33AF00CB4E74 /* CommonVar.m in Sources */,
+				187A2BBD207CB71200CB4E74 /* VideoListModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1871DA13206204360080BB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		1871DA14206204360080BB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		1871DA16206204360080BB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECVCAG6ZK6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXFenShenPlugin/WXFenShenPlugin-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		1871DA17206204360080BB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECVCAG6ZK6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXFenShenPlugin/WXFenShenPlugin-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1871D9FA206204360080BB42 /* Build configuration list for PBXProject "WXFenShenPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1871DA13206204360080BB42 /* Debug */,
+				1871DA14206204360080BB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1871DA15206204360080BB42 /* Build configuration list for PBXNativeTarget "WXFenShenPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1871DA16206204360080BB42 /* Debug */,
+				1871DA17206204360080BB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1871D9F7206204360080BB42 /* Project object */;
+}
